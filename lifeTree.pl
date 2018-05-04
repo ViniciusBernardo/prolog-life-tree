@@ -8,6 +8,18 @@ ancestral(palaeognathae, aves).
 ancestral(struthioniformes, palaeognathae).
 ancestral(notopalaeognathae, palaeognathae).
 
+/*
+		descendentes de struthioniformes
+*/
+
+ancestral(avestruz, struthioniformes).
+
+
+/*
+		descendentes de rheiformes
+*/
+
+ancestral(ema, rheiformes).
 
 /*
     descendentes de notopalaeognathae
@@ -27,6 +39,13 @@ ancestral(aepyornithiformes, novaeratitae).
 
 
 /*
+		descendentes de apterygiformes
+*/
+
+ancestral(kiwi, apterygiformes).
+
+
+/*
     descendentes de neognathae
 */
 ancestral(galloanserae, neognathae).
@@ -40,6 +59,23 @@ ancestral(galliformes, galloanserae).
 ancestral(anseriformes, galloanserae).
 
 
+/* 
+		descendentes de galliformes
+*/
+
+ancestral(galinha, galliformes).
+ancestral(peru, galliformes).
+
+/*
+		descendentes de anseriformes
+*/
+
+ancestral(pato, anseriformes).
+ancestral(ganso, anseriformes).
+ancestral(cisne, anseriformes).
+
+
+
 /*
     descendentes de neoaves
 */
@@ -48,6 +84,14 @@ ancestral(columbaves, neoaves).
 ancestral(gruiformes, neoaves).
 ancestral(aequorlitornithes, neoaves).
 ancestral(inopinaves, neoaves).
+
+/*
+		descendentes de aequorlitornithes
+*/
+ancestral(pinguim, aequorlitornithes).
+ancestral(garca, aequorlitornithes).
+ancestral(pelicano, aequorlitornithes).
+ancestral(cegonha, aequorlitornithes).
 
 
 /*
@@ -100,6 +144,10 @@ ancestral(columbiformes, columbimorphae).
 ancestral(mesitornithiformes, columbimorphae).
 ancestral(pteroclidiformes, columbimorphae).
 
+/*
+		descendentes de columbiformes
+*/
+ancestral(pombo, columbiformes).
 
 /*
     descendentes de aequorlitornithes
@@ -108,6 +156,10 @@ ancestral(ardeae, aequorlitornithes).
 ancestral(mirandornithes, aequorlitornithes).
 ancestral(charadriiformes, aequorlitornithes).
 
+/*
+		descendentes de charadriiformes
+*/
+ancestral(gaivota, charadriiformes).
 
 /*
     descendentes de mirandornithes
@@ -115,6 +167,11 @@ ancestral(charadriiformes, aequorlitornithes).
 ancestral(phoenicopteriformes, mirandornithes).
 ancestral(podicipediformes, mirandornithes).
 
+
+/*
+		descendentes de phoenicopteriformes
+*/
+ancestral(flamingo, phoenicopteriformes).
 
 /*
     descendentes de ardeae
@@ -168,6 +225,16 @@ ancestral(accipitrimorphae, afroaves).
 ancestral(strigiformes, afroaves).
 ancestral(coraciimorphae, afroaves).
 
+/*
+		descendentes de accipitriformes
+*/
+ancestral(gaviao, accipitriformes).
+ancestral(aguia, accipitriformes).
+
+/*
+		descendentes de strigiformes
+*/
+ancestral(coruja, strigiformes).
 
 /*
     descendentes de accipitrimorphae
@@ -204,6 +271,11 @@ ancestral(bucerotiformes, picocoraciae).
 ancestral(coraciformes, picocoraciae).
 ancestral(piciformes, picocoraciae).
 
+/*
+		descentes de piciformes
+*/
+ancestral(tucano, piciforme).
+ancestral(pica_pau, piciforme).
 
 /*
     descendentes de australaves
@@ -218,11 +290,22 @@ ancestral(eufalconimorphae, australaves).
 ancestral(falconiformes, eufalconimorphae).
 ancestral(psittacopasserae, eufalconimorphae).
 
+/*
+		descendentes de falconiformes
+*/
+ancestral(falcao, falconiformes).
 
 /*
     descendentes de psittacopasserae
 */
 ancestral(psittaciformes, psittacopasserae).
 ancestral(passeriformes, psittacopasserae).
+
+/*
+		descendentes de psittaciformes
+*/
+ancestral(papagaio, psittaciformes).
+ancestral(arara, psittaciformes).
+ancestral(cacatua, psittaciformes).
 
 
