@@ -13,3 +13,17 @@ Para rodar o programa, clone o repositório e abra a plataforma swipl. Nela, imp
 
 Agora, utilize algumas das funções abaixo para exibir os resultados:
 
+ancestrais_de(X,Y)
+ancestral_comum(A,B,X)
+irmao(X,Y)
+descendente(X,Y)
+descendentes_de(X,L)
+ver_todos
+ver_filhos(X)
+ver_descendentes(X)
+
+## Exemplo
+
+`ancestral_comum(falcao, gaviao). /* Retorna telluraves */`
+`irmao(pinguim, pelicano) /* Retorna true */`
+
