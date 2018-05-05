@@ -24,6 +24,6 @@ ver_descendentes(X)
 
 ## Exemplo
 
-`ancestral_comum(falcao, gaviao). /* Retorna telluraves */`
+`ancestral_comum(falcao, gaviao). /* Retorna telluraves */` </br>
 `irmao(pinguim, pelicano) /* Retorna true */`
 
