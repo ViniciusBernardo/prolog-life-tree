@@ -1,3 +1,5 @@
+:- dynamic ancestral/2.
+
 ancestral(neognathae, aves).
 ancestral(palaeognathae, aves).
 
